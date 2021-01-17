@@ -9,18 +9,22 @@ Generate gitignore files for your Operating System, IDE, and Programming Languag
 
 In the project directory, you can run:
 
-### `yarn start`
+### yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
 
-### ``rimraf
+#### `rimraf
 
 The rimraf module allows to clean the installed node packages in a node based project easily. (https://www.npmjs.com/package/rimraf)
 
-#Snyk helps you find, fix and monitor known vulnerabilities in open-source dependencies. (https://www.npmjs.com/package/snyk)
-For more information see https://snyk.io
+##### snyk 
 
-authenticate with $ snyk auth
-test your local project with $ snyk test
-get alerted for new vulnerabilities with $ snyk monitor
+You will need to authenticate with your Snyk account: snyk auth
+
+Snyk helps you find, fix and monitor known vulnerabilities in open-source dependencies. (https://www.npmjs.com/package/snyk/v/1.437.4)
+For more information see https://snyk.io 
+
+Authenticate with: snyk auth
+Test your local project with: snyk test
+Get alerted for new vulnerabilities with: snyk monitor
