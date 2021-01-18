@@ -1,0 +1,30 @@
+.header {
+    background-color: #0c0c0d;
+    height: 60px;
+    border-bottom: 1px solid #252426;
+  }
+  
+  .navbar-brand {
+    padding: 0px;
+  }
+  
+  .navbar {
+    padding: 0px;
+    padding-right: 10px;
+  }
+  
+  .logo {
+    width: auto;
+    height: 60px;
+  }
+  
+  .navbar-text {
+    cursor: pointer;
+  }
+  
+  .navbar-text:hover{
+    color: #248bf2;
+    text-decoration: none;
+  }
+  
+  
