@@ -15,10 +15,10 @@ class App extends React.Component {
           rel="noopener noreferrer"
         >
           Typescript,
-        </a> React and <code>Parcel.</code>
+        </a> React and Parcel.
         </h3>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit src/App.tsx and save to reload.
         </p>
         <a
           className="App-link"

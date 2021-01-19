@@ -14,7 +14,7 @@ class Header extends React.Component {
                 <Row>
                     <Col> 
                         <div><img src={logo} className="App-logo" alt="logo" /></div>
-                        <div style={{fontSize: '18px', color:'#e83e8c'}}>Happy coding!</div>
+                        <div style={{fontSize: '18px', color:'#61dafb'}}>Happy coding!</div>
                     </Col>
                     <Col className="text-right">
                         <a
