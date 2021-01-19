@@ -1,59 +1,34 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
-import {
-  Collapse,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  NavbarText,
-  NavLink,
-} from "reactstrap";
+import { Row, Col, } from 'reactstrap';
+import './Header.css';
 
-import "./Header.css";
+const user = require("./user.svg") as string;
+const logo = require("./logo.svg") as string;
 
-interface headerState {
-  isOpen: boolean;
-}
+class Header extends React.Component {
 
-class Header extends React.Component<{}, headerState> {
-  constructor(props: Readonly<{}>) {
-    super(props);
+    render() {
 
-    this.state = {
-      isOpen: false,
-    };
-  }
-
-  toggle = () => {
-    this.setState({
-      isOpen: !this.state.isOpen,
-    });
-  };
-
-  render() {
-    const { isOpen } = this.state;
-
-    return (
-      <Navbar className="header" dark expand="md">
-        <NavbarBrand className="logo-style" tag={Link} to="/">
-          {" "}
-          <img className="logo" src="assets/images/logo.png" alt="logo" />
-        </NavbarBrand>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse
-          isOpen={isOpen}
-          navbar
-          style={{ zIndex: 1, backgroundColor: "black" }}
-        >
-          <div className="w-100 text-right">
-            <NavbarText tag={Link} to="/">
-              <NavLink className="NavLink">OPEN APP</NavLink>
-            </NavbarText>
-          </div>
-        </Collapse>
-      </Navbar>
-    );
-  }
+        return (
+            <div className="Header">
+                <Row>
+                    <Col> 
+                        <div><img src={logo} className="App-logo" alt="logo" /></div>
+                        <div style={{fontSize: '18px', color:'#e83e8c'}}>Happy coding!</div>
+                    </Col>
+                    <Col className="text-right">
+                        <a
+                          href="https://www.linkedin.com/in/markovicmarco/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                        <img src={user} width="20px" alt="user"/>
+                        </a>
+                    </Col>
+                </Row>
+            </div>
+        );
+    }
 }
 
 export default Header;

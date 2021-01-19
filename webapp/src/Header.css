@@ -1,30 +1,26 @@
-.header {
-    background-color: #0c0c0d;
-    height: 60px;
-    border-bottom: 1px solid #252426;
+.Header {
+  border-bottom: 1px solid #61dafb;
+  min-height: 120px;
+  background-color: #084078;
+  padding: 20px 15%;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  .navbar-brand {
-    padding: 0px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .navbar {
-    padding: 0px;
-    padding-right: 10px;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .logo {
-    width: auto;
-    height: 60px;
-  }
-  
-  .navbar-text {
-    cursor: pointer;
-  }
-  
-  .navbar-text:hover{
-    color: #248bf2;
-    text-decoration: none;
-  }
-  
-  
+}

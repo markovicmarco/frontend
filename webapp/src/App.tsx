@@ -1,15 +1,24 @@
 import * as React from "react";
 import './App.css';
 
-const logo = require("./logo.svg") as string;
 
-function App() {
-  return (
+class App extends React.Component {
+  render() {
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Blazing fast zero configuration 
-         <code> App</code> 
+      <main className="App-content">
+        <h3> 
+        <a
+          className="App-link"
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Typescript,
+        </a> React and <code>Parcel.</code>
+        </h3>
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -17,12 +26,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Enjoy learning React
+          Learn React
         </a>
-      </header>
+      </main>
     </div>
-  );
+    );
+  }
 }
 
-
 export default App;
+

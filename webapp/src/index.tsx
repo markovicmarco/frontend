@@ -1,21 +1,19 @@
 import * as React from "react";
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
 import App from './App';
-import Footer from './Footer'
+import Header from './Header';
+import Subheader from './Subheader';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-
 
 ReactDOM.hydrate(
   <React.StrictMode>
-    <div>
-      <Header />
-    <div>
-      <App />
-    </div>
-      <Footer />
-    </div>
+    <Header />
+    <Subheader />
+    <App />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,6 +1,10 @@
 .Footer {
-    border-top: 1px solid #252426;
+    border-top: 1px solid #e83e8c;
     min-height: 120px;
-    background-color: #0c0c0d;
+    background-color: #084078;
     padding: 20px 15%;
 }
+
+.Footer-link {
+    color: #61dafb;
+  }
