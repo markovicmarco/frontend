@@ -1,4 +1,4 @@
-# React,TypeScript, ESLint, Parcel and reactstrap app. 
+# React,TypeScript, ESLint, Parcel and reactstrap app template. 
 
 ![Localhost](localhost.png)
 
