@@ -24,7 +24,7 @@ Module used to clean node packages. (https://yarnpkg.com/package/rimraf)
 
 # support project
 
-(paypal.me/markovicmarco)
+(https://paypal.me/markovicmarco?locale.x=en_US)
 
 
 
