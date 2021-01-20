@@ -1,3 +1,5 @@
+![Localhost](localhost.png)
+
 # React,TypeScript, ESLint, Parcel and reactstrap starter template. 
 
 In the project directory, you can run:
