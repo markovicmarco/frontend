@@ -1,4 +1,4 @@
-## React,TypeScript, ESLint, Parcel and reactstrap template. 
+# React,TypeScript, ESLint, Parcel and reactstrap app. 
 
 ![Localhost](localhost.png)
 
@@ -22,9 +22,9 @@ open-source dependencies. (https://snyk.io/)
 
 Module used to clean node packages. (https://yarnpkg.com/package/rimraf)
 
-### support 
+#### support 
 
-(https://paypal.me/markovicmarco?locale.x=en_US)
+Buy me a coffee: (https://paypal.me/markovicmarco?locale.x=en_US)
 
 
 
