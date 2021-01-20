@@ -22,5 +22,9 @@ open-source dependencies. (https://snyk.io/)
 
 Module used to clean node packages. (https://yarnpkg.com/package/rimraf)
 
+# support project
+
+(paypal.me/markovicmarco)
+
 
 
